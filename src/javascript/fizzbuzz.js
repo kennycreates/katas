@@ -1,9 +1,9 @@
-for (let i = 1; i < 200; i++) {
-    if (i % 3, 5 == 0) console.log("FizzBuzz");
+for (var i = 1; i < 201; i++) {
+    if (i % 3 == 0 & i % 5 == 0) console.log("FizzBuzz");
     else if (i % 3 == 0) console.log("Fizz");
     else if (i % 5 == 0) console.log("Buzz");
-    else if (i % 4 == 0) console.log("Bang");
-    else if (i % 4 & 5 == 0) console.log("Bang, bang bang");
+    else if (i % 11 == 0) console.log("Bang");
+    
     else console.log(i);
 }
 
