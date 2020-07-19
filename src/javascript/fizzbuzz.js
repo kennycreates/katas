@@ -8,3 +8,15 @@ for (var i = 1; i < 201; i++) {
 }
 
 
+function getNumber(i){
+    return i =1; 
+}
+
+function getMaximum(z){
+    return z < 201;
+}
+
+function getMultiples(a){
+    return i % 3;
+}
+
